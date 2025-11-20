@@ -39,8 +39,9 @@ The goal of this project is to analyze the sales performance of iPhone models ac
 The cleaned dataset contains **80,000+ rows** of iPhone sales records across multiple years.
 
 📄 Files
--
+
 **Raw file:** Data
+
 **cleaned file:** iphone_india_full.csv
 
  ##📑 Column Description
