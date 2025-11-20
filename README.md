@@ -36,9 +36,13 @@ The goal is to uncover **revenue trends, top-performing models, regional demand 
 ## 🧠 Key Insights
 
 ✔ Pro models generate the **highest revenue contribution**
+
 ✔ Seasonal sales spikes during **Q4 festival & holiday periods**
+
 ✔ Regions like **India, USA, UAE** show strong year-over-year growth
+
 ✔ Older models drop in sales **2–3 years after launch**
+
 ✔ Revenue increases even when volume dips due to **higher ASP (Average Selling Price)**
 
 ---
