@@ -33,17 +33,23 @@ The cleaned dataset (iphone_ambia_full.csv processed) and the Power BI dashboard
 * Provide a business-ready dashboard for decision-making
 
 ---
-📘Dataset Overview
+Here is your section rewritten with **bold topic headings**, clean Markdown, and GitHub-ready formatting:
 
-The project uses the cleaned iPhone sales dataset containing more than 80,000 rows of sales records across different iPhone models, regions, and years.
+---
 
-📄 Files
+## 📘 **Dataset Overview**
 
-Raw file:: iphone_india_full.csv
+The project uses the cleaned iPhone sales dataset containing more than **80,000 rows** of sales records across different iPhone models, regions, and years.
 
-Cleaned file: iphone_india_full_cleaned.xlsx
+---
 
-📑 Column Description
+## 📄 **Files**
+
+* **Raw file:** iphone_india_full.csv
+---
+
+## 📑 **Column Description**
+
 | Column Name | Description                                  |
 | ----------- | -------------------------------------------- |
 | sales_id    | Unique ID for each sales transaction         |
@@ -56,7 +62,8 @@ Cleaned file: iphone_india_full_cleaned.xlsx
 | price_inr   | Selling price of the iPhone in Indian Rupees |
 | return_rate | Percentage of returned or defective units    |
 | storage_gb  | Storage capacity (GB) of the device          |
-| ram_gb      | RAM configu_                                 |
+| ram_gb      | RAM configuration (GB)                       |
+
 
 ---
 
