@@ -1,5 +1,4 @@
-# <img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/833ad067-5063-42fc-87a4-88215daaceb7" />
- Apple iPhone Sales Analysis Dashboard
+# <img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/833ad067-5063-42fc-87a4-88215daaceb7" /> Apple iPhone Sales Analysis Dashboard
 
 **Power BI | Data Analytics | Sales Insights | iPhone Market Trends**
 
