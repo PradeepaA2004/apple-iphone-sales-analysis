@@ -101,16 +101,19 @@ Here is your **DAX Measures section**, fully formatted, clean alignment, profess
 ---
 
 ✅ **📌 DAX Measures Used in Power BI**
+
 1️ Total Units Sold
+-
 Total Units Sold =
 SUM ( 'Sales'[units_sold] )
 
 2️ Total Models
+-
 Total Models =
 DISTINCTCOUNT ( 'Sales'[model_id] )
 
 3️ Total Revenue (INR)
-
+-
 Total Revenue INR =
 SUMX (
     'Sales',
@@ -118,24 +121,14 @@ SUMX (
 )
 
 4️ Transaction Count
-
+-
 Transaction Count =
 COUNTROWS ( 'Sales' )
 
 5️ Average Selling Price
+-
 Average Price =
 AVERAGE ( 'Sales'[price_inr] )
-
- 📊 Dashboard Features
- 1️⃣ Sales Trend Analysis
-
-2️⃣ Model-wise Comparison
-
-### 3️⃣ Region-wise Insights
-
-### 4️⃣ Customer & Pricing Insights
-
-### 5️⃣ Interactive Filters
 
 ---
 
