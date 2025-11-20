@@ -57,9 +57,98 @@ The project uses the cleaned iPhone sales dataset containing more than **80,000 
 | storage_gb  | Storage capacity (GB) of the device          |
 | ram_gb      | RAM configuration (GB)                       |
 
+---
+
+# 🧹 **Data Cleaning Steps**
+
+The dataset was cleaned and prepared in Excel before importing into Power BI.
+Below are the steps followed:
+
+### **1. Converted Data Types**
+
+* sales_id → Whole Number
+* model_id → Whole Number
+* sale_date → Date
+* year → Whole Number
+* month → Whole Number
+* units_sold → Whole Number
+* price_inr → Decimal Number
+* return_rate → Decimal Number
+* storage_gb → Whole Number
+* ram_gb → Whole Number
+
+### **2. Sorted and Structured Data**
+
+* Sorted sales_id in ascending order
+* Removed blank rows and duplicate records
+* Fixed date format inconsistencies
+* Ensured month and year fields match sale_date
+
+### **3. Standardized Columns**
+
+* Removed unnecessary spaces
+* Corrected inconsistent text values (region, model names)
+* Ensured numerical columns had no text errors
+
+### **4. Added Derived Columns**
+
+* Month Name (Excel):
+
+  ```
+  =TEXT(G2, "mmm")
+  ```
+* Year-Month (for time series):
+
+  ```
+  =TEXT(G2, "YYYY-MM")
+  ```
 
 ---
 
+# 🧮 **DAX Measures Used in Power BI**
+
+Below are the major DAX measures used in the dashboard.
+
+### **Total Units Sold**
+
+```DAX
+Total Units Sold = SUM('iphone_sales'[units_sold])
+```
+
+### **Total Revenue**
+
+```DAX
+Total Revenue = SUM('iphone_sales'[price_inr])
+```
+
+### **Average Return Rate**
+
+```DAX
+Average Return Rate = AVERAGE('iphone_sales'[return_rate])
+```
+
+### **Total Models Sold**
+
+```DAX
+Total Models = DISTINCTCOUNT('iphone_sales'[model_id])
+```
+
+### **Revenue per Unit**
+
+```DAX
+Revenue Per Unit = DIVIDE([Total Revenue], [Total Units Sold], 0)
+```
+
+### **Monthly Revenue**
+
+```DAX
+Monthly Revenue = 
+CALCULATE(
+    [Total Revenue],
+    ALLEXCEPT('iphone_sales', 'iphone_sales'[year], 'iphone_sales'[month])
+)
+```
+---
 ## 🔧 Tools & Technologies
 
 * **Power BI (Core Dashboard Development)**
