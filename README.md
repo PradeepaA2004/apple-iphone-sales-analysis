@@ -20,10 +20,9 @@ The dashboard provides meaningful KPIs and visual insights useful for **sales te
 
 ## 📘 Project Overview
 
-The goal of this project is to analyze the **sales performance of iPhone models across regions and years**, identify revenue trends, and highlight growth opportunities.
-The dashboard combines **KPIs, charts, and slicers** to offer dynamic insights.
-The cleaned dataset (iphone_ambia_full.csv processed) and the Power BI dashboard together demonstrate a complete workflow—from data preparation → modeling → visualization—suitable for analytics portfolios, corporate reporting, and GitHub show-case projects.
----
+The goal of this project is to analyze the sales performance of iPhone models across regions and years, identify revenue trends, and highlight growth opportunities.
+The dashboard combines KPIs, charts, and slicers to offer dynamic insights.
+The cleaned dataset (iphone_ambia_full.csv processed) and the Power BI dashboard together demonstrate a complete workflow—from data preparation → modeling → visualization—suitable for analytics portfolios, corporate reporting, and GitHub showcase projects
 
 ## 🎯 Key Objectives
 
@@ -32,6 +31,32 @@ The cleaned dataset (iphone_ambia_full.csv processed) and the Power BI dashboard
 * Identify high-performing regions and sales channels
 * Calculate revenue KPIs and growth metrics
 * Provide a business-ready dashboard for decision-making
+
+---
+📘Dataset Overview
+
+The project uses the cleaned iPhone sales dataset containing more than 80,000 rows of sales records across different iPhone models, regions, and years.
+
+📄 Files
+
+Raw file:: iphone_india_full.csv
+
+Cleaned file: iphone_india_full_cleaned.xlsx
+
+📑 Column Description
+| Column Name | Description                                  |
+| ----------- | -------------------------------------------- |
+| sales_id    | Unique ID for each sales transaction         |
+| model_id    | Identifier for each iPhone model             |
+| sale_date   | Date on which the sale occurred              |
+| region      | Region or market where the sale happened     |
+| year        | Year extracted from the sale date            |
+| month       | Month extracted from the sale date (1–12)    |
+| units_sold  | Total number of units sold                   |
+| price_inr   | Selling price of the iPhone in Indian Rupees |
+| return_rate | Percentage of returned or defective units    |
+| storage_gb  | Storage capacity (GB) of the device          |
+| ram_gb      | RAM configu_                                 |
 
 ---
 
@@ -175,8 +200,11 @@ This project highlights how raw transactional data can be transformed into actio
 
 
 🪄 Author
+
 Pradeepa
+
 📍 Viruthunagar, Tamil Nadu
+
 💼 BE Graduate | Data & Analytics Enthusiast
 
 
