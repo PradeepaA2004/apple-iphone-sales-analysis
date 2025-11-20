@@ -145,17 +145,6 @@ SUMX(
 )
 ```
 
-### ✔ **Method B: If revenue column already exists**
-
-(Use only if revenue is pre-calculated in Excel)
-
-```DAX
-Total Revenue INR =
-SUM('Sales'[revenue_inr])
-```
-
----
-
 # ✅ **4. Total Sales Transactions**
 
 Each `sales_id` = 1 transaction.
@@ -163,26 +152,6 @@ Each `sales_id` = 1 transaction.
 ```DAX
 Total Transactions =
 COUNT('Sales'[sales_id])```
-
----
-## 🔧 Tools & Technologies
-
-* **Power BI (Core Dashboard Development)**
-* **Excel / CSV (Data Source)**
-* **DAX Measures**
-* **Power Query (Data Cleaning)**
-* **GitHub (Version Control & Documentation)**
-
----
-
-## 📈 Key KPIs Displayed
-
-* **Total Units Sold**
-* **Total Revenue**
-* **Average Selling Price (ASP)**
-* **Year-over-Year Growth**
-* **Top Selling iPhone Model**
-* **Best Performing Region**
 
 ---
 
@@ -214,42 +183,6 @@ COUNT('Sales'[sales_id])```
 * Region
 * Model
 * Sales channel
-
----
-
-## 📂 Data Model Overview
-
-**Fact Table:**
-`Sales_Fact` → contains sales qty, revenue, year, model, region
-
-**Dimension Tables:**
-
-* `Dim_Model` (iPhone model details)
-* `Dim_Region` (zone, state)
-* `Dim_Date` (calendar table)
-
-Relationships:
-
-* Star schema optimized for performance
-* One-to-many relationships
-
----
-
-## 📜 DAX Measures Used
-
-```DAX
-Total Units Sold = SUM(Sales_Fact[Units])
-Total Revenue = SUM(Sales_Fact[Revenue])
-Avg Selling Price = [Total Revenue] / [Total Units Sold]
-
-YoY Growth = 
-VAR CurrentYear = [Total Revenue]
-VAR PreviousYear = CALCULATE([Total Revenue], DATEADD(Dim_Date[Date], -1, YEAR))
-RETURN DIVIDE(CurrentYear - PreviousYear, PreviousYear)
-```
-
-More measures included in the PBIX file.
-
 ---
 
 ## 📢 Insights Summary (From Dashboard)
