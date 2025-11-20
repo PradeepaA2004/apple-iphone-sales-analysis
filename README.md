@@ -33,20 +33,13 @@ The cleaned dataset (iphone_ambia_full.csv processed) and the Power BI dashboard
 * Provide a business-ready dashboard for decision-making
 
 ---
-Here is your section rewritten with **bold topic headings**, clean Markdown, and GitHub-ready formatting:
-
----
-
 ## 📘 **Dataset Overview**
 
 The project uses the cleaned iPhone sales dataset containing more than **80,000 rows** of sales records across different iPhone models, regions, and years.
 
----
-
 ## 📄 **Files**
 
 * **Raw file:** iphone_india_full.csv
----
 
 ## 📑 **Column Description**
 
