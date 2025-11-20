@@ -107,47 +107,63 @@ Below are the steps followed:
 
 # 🧮 **DAX Measures Used in Power BI**
 
-Below are the major DAX measures used in the dashboard.
+# ✅ **1. Total Units Sold**
 
-### **Total Units Sold**
+Counts all units sold from the *units_sold* column.
 
 ```DAX
-Total Units Sold = SUM('iphone_sales'[units_sold])
+Total Units Sold =
+SUM('Sales'[units_sold])
 ```
 
-### **Total Revenue**
+---
+
+# ✅ **2. Total Models**
+
+Counts how many **unique iPhone models** exist.
 
 ```DAX
-Total Revenue = SUM('iphone_sales'[price_inr])
+Total Models =
+DISTINCTCOUNT('Sales'[model_id])
 ```
 
-### **Average Return Rate**
+---
+
+# ✅ **3. Total Revenue (INR)**
+
+Revenue = units sold × price
+
+You can use either:
+
+### ✔ **Method A: Direct SUMX (Best Practice)**
 
 ```DAX
-Average Return Rate = AVERAGE('iphone_sales'[return_rate])
-```
-
-### **Total Models Sold**
-
-```DAX
-Total Models = DISTINCTCOUNT('iphone_sales'[model_id])
-```
-
-### **Revenue per Unit**
-
-```DAX
-Revenue Per Unit = DIVIDE([Total Revenue], [Total Units Sold], 0)
-```
-
-### **Monthly Revenue**
-
-```DAX
-Monthly Revenue = 
-CALCULATE(
-    [Total Revenue],
-    ALLEXCEPT('iphone_sales', 'iphone_sales'[year], 'iphone_sales'[month])
+Total Revenue INR =
+SUMX(
+    'Sales',
+    'Sales'[units_sold] * 'Sales'[price_inr]
 )
 ```
+
+### ✔ **Method B: If revenue column already exists**
+
+(Use only if revenue is pre-calculated in Excel)
+
+```DAX
+Total Revenue INR =
+SUM('Sales'[revenue_inr])
+```
+
+---
+
+# ✅ **4. Total Sales Transactions**
+
+Each `sales_id` = 1 transaction.
+
+```DAX
+Total Transactions =
+COUNT('Sales'[sales_id])```
+
 ---
 ## 🔧 Tools & Technologies
 
