@@ -96,9 +96,6 @@ The cleaned dataset contains **80,000+ rows** of iPhone sales records across mul
 
 ---
 
-Here is your **DAX Measures section**, fully formatted, clean alignment, professional spacing, and **bold headings** — perfect for your GitHub README.
-
----
 
 ✅ **📌 DAX Measures Used in Power BI**
 
