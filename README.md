@@ -96,24 +96,61 @@ The cleaned dataset contains **80,000+ rows** of iPhone sales records across mul
 
 ---
 
-## ✅ 📌 DAX Measures Used in Power BI
+Here is your **DAX Measures section**, fully formatted, clean alignment, professional spacing, and **bold headings** — perfect for your GitHub README.
 
-1. Total Units Sold
-Total Units Sold = SUM('Sales'[units_sold])
+---
 
-2. Total models
-Total Models = DISTINCTCOUNT('Sales'[model_id])
+# ## ✅ **📌 DAX Measures Used in Power BI**
 
-3.Total revenue (INR)
+### **1️⃣ Total Units Sold**
+
+```DAX
+Total Units Sold =
+SUM ( 'Sales'[units_sold] )
+```
+
+---
+
+### **2️⃣ Total Models**
+
+```DAX
+Total Models =
+DISTINCTCOUNT ( 'Sales'[model_id] )
+```
+
+---
+
+### **3️⃣ Total Revenue (INR)**
+
+✔ Best practice using **SUMX**
+
+```DAX
 Total Revenue INR =
-SUMX(
-    iphone_india_full,iphone_india_full[units_sold] * iphone_india_full[price_inr])
+SUMX (
+    'Sales',
+    'Sales'[units_sold] * 'Sales'[price_inr]
+)
+```
 
-4.Transaction Count
-Transaction Count =COUNTROWS( iphone_india_full )
+---
 
-5. Average Selling Price
-Average Price = AVERAGE('Sales'[price_inr])
+### **4️⃣ Transaction Count**
+
+✔ Counts all rows/sales records
+
+```DAX
+Transaction Count =
+COUNTROWS ( 'Sales' )
+```
+
+---
+
+### **5️⃣ Average Selling Price**
+
+```DAX
+Average Price =
+AVERAGE ( 'Sales'[price_inr] )
+```
 
 ## 📊 Dashboard Features
 
@@ -135,15 +172,6 @@ Average Price = AVERAGE('Sales'[price_inr])
 * Strong regional growth detected
 * Older models still have strong demand
 * Sales spike during festivals and product launches
-
----
-
-## 🚀 How to Use This Project
-
-1. Clone repo
-2. Open PBIX
-3. Load CSV
-4. Explore dashboard
 
 ---
 
