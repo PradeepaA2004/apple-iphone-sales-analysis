@@ -96,40 +96,24 @@ The cleaned dataset contains **80,000+ rows** of iPhone sales records across mul
 
 ---
 
-## 🧮 DAX Measures Used in Power BI
+## ✅ 📌 DAX Measures Used in Power BI
 
-### 1️⃣ **Total Units Sold**
+1. Total Units Sold
+Total Units Sold = SUM('Sales'[units_sold])
 
-```DAX
-Total Units Sold =
-SUM('Sales'[units_sold])
-```
+2. Total models
+Total Models = DISTINCTCOUNT('Sales'[model_id])
 
-### 2️⃣ **Total Models**
-
-```DAX
-Total Models =
-DISTINCTCOUNT('Sales'[model_id])
-```
-
-### 3️⃣ **Total Revenue INR**
-
-```DAX
+3.Total revenue (INR)
 Total Revenue INR =
 SUMX(
-    'Sales',
-    'Sales'[units_sold] * 'Sales'[price_inr]
-)
-```
+    iphone_india_full,iphone_india_full[units_sold] * iphone_india_full[price_inr])
 
-### 4️⃣ **Total Transactions**
+4.Transaction Count
+Transaction Count =COUNTROWS( iphone_india_full )
 
-```DAX
-Total Transactions =
-COUNT('Sales'[sales_id])
-```
-
----
+5. Average Selling Price
+Average Price = AVERAGE('Sales'[price_inr])
 
 ## 📊 Dashboard Features
 
