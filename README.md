@@ -6,10 +6,10 @@ This project analyzes Apple iPhone sales data to uncover trends related to reven
 
 ---
 
-📘 Project Overview
+📱**Project Overview**
 
 The Apple iPhone Sales Analysis Dashboard provides a detailed view of sales performance across models, regions, years, and revenue segments.
-Using a structured dataset of 500+ iPhone sales records, this project uncovers:
+Using a structured dataset of 80000+ iPhone sales records, this project uncovers:
 
 Best-performing iPhone models
 
@@ -23,8 +23,9 @@ Seasonal or yearly growth behavior
 
 This dashboard helps sales teams, retailers, and marketing analysts make data-driven decisions and optimize product strategies.
 
+---
 
-🎯 Project Objectives
+🎯 👍 **Project Objectives**
 
 Build a professional Power BI dashboard for Apple iPhone sales
 
@@ -38,6 +39,7 @@ Identify growth opportunities using historical trends
 
 Present a clean, business-focused BI report
 
+---
 
 
  📘 Dataset Overview
@@ -50,8 +52,11 @@ The cleaned dataset contains **80,000+ rows** of iPhone sales records across mul
 **Raw file:** Data
 
 **cleaned file:** iphone_india_full.csv
+**Dashboard Sceenshot;**![]("C:\Users\PRADEEPA\Downloads\dashboard.png")
 
- ##📑 Column Description
+---
+
+ ##⭐ Column Description
  -
 
 | Column Name | Description                               |
@@ -133,7 +138,8 @@ Average Price =
 AVERAGE ( 'Sales'[price_inr] )
 
 ---
- Dashboard Visuals Summary:
+
+💡 💻 Dashboard Visuals Summary:
  -
 
 | Visual Type              | X-Axis / Legend   | Y-Axis / Values          |
@@ -144,12 +150,41 @@ AVERAGE ( 'Sales'[price_inr] )
 | **Donut Chart**          | Channel           | Total Models             |  
 | **Stacked Bar Chart**    | Region            | Units Sold               | 
 
+---
+
+📁 **Project Files**
+--
+
+**Project Report:** Apple_iPhone_Sales_Report.pdf
+
+**Dashboard:** Apple_iPhone_Sales_Dashboard.pbix
+
+**Dataset:** data.csv 
+
+---
+
+✅**Conclusion**
+
+The Apple iPhone Sales Analysis Dashboard provides a complete view of global iPhone sales, allowing for in-depth analysis across models, regions, channels, and time periods. Key takeaways include:
+
+Trend Insights: Monthly sales and revenue trends highlight peak periods and patterns.
+
+Model Performance: Ratings and units sold help identify top-performing iPhone models.
+
+Channel & Regional Analysis: Visualizations show which sales channels and regions drive the most revenue.
+
+Informed Decision-Making: The dashboard supports strategic decisions in marketing, inventory, and sales planning.
+
+Overall, this dashboard turns raw data into actionable insights, enabling stakeholders to monitor performance and make data-driven business decisions efficiently.
+
+---
 
 
 ## 🪄 Author
 
 **Pradeepa**
 📍 Virudhunagar, Tamil Nadu
-BE Graduate | Data & Analytics Enthusiast
+
+ BE Graduate | Data & Analytics Enthusiast.
 
 ---
