@@ -6,38 +6,28 @@ This project analyzes Apple iPhone sales data to uncover trends related to reven
 
 ---
 
-📱**Project Overview**
+📱 **Project Overview**
 
-The Apple iPhone Sales Analysis Dashboard provides a detailed view of sales performance across models, regions, years, and revenue segments.
-Using a structured dataset of 80000+ iPhone sales records, this project uncovers:
+* The Apple iPhone Sales Analysis Dashboard provides a detailed view of sales performance across models, regions, years, and revenue segments.
+* Using a structured dataset of 80,000+ iPhone sales records, this project uncovers:
 
-Best-performing iPhone models
-
-High-demand regions
-
-Revenue and sales trends
-
-Customer purchasing patterns
-
-Seasonal or yearly growth behavior
-
-This dashboard helps sales teams, retailers, and marketing analysts make data-driven decisions and optimize product strategies.
+  * Best-performing iPhone models
+  * High-demand regions
+  * Revenue and sales trends
+  * Customer purchasing patterns
+  * Seasonal or yearly growth behavior
+* This dashboard helps sales teams, retailers, and marketing analysts make data-driven decisions and optimize product strategies.
 
 ---
 
 🎯 👍 **Project Objectives**
 
-Build a professional Power BI dashboard for Apple iPhone sales
-
-Analyze units sold, revenue, model trends, and region-wise performance
-
-Create interactive visuals, KPIs, slicers, and trend charts
-
-Compare multiple iPhone models and their contribution to revenue
-
-Identify growth opportunities using historical trends
-
-Present a clean, business-focused BI report
+* Build a professional Power BI dashboard for Apple iPhone sales.
+* Analyze units sold, revenue, model trends, and region-wise performance.
+* Create interactive visuals, KPIs, slicers, and trend charts.
+* Compare multiple iPhone models and their contribution to revenue.
+* Identify growth opportunities using historical trends.
+* Present a clean, business-focused BI report.
 
 ---
 
@@ -47,14 +37,6 @@ Present a clean, business-focused BI report
 
 The cleaned dataset contains **80,000+ rows** of iPhone sales records across multiple years.
 
-📄 Files
-
-**Raw file:** Data
-
-**cleaned file:** iphone_india_full.csv
-**Dashboard Sceenshot;**![]("C:\Users\PRADEEPA\Downloads\dashboard.png")
-
----
 
  ##⭐ Column Description
  -
@@ -110,9 +92,7 @@ The cleaned dataset contains **80,000+ rows** of iPhone sales records across mul
 
 ---
 
-
-✅ **📌 DAX Measures Used in Power BI**
---
+ **📌 DAX Measures Used in Power BI**
 
 1️⃣ Total Units Sold
 Total Units Sold =
@@ -139,7 +119,7 @@ AVERAGE ( 'Sales'[price_inr] )
 
 ---
 
-💡 💻 Dashboard Visuals Summary:
+💡 Dashboard Visuals Summary:
  -
 
 | Visual Type              | X-Axis / Legend   | Y-Axis / Values          |
@@ -152,14 +132,13 @@ AVERAGE ( 'Sales'[price_inr] )
 
 ---
 
-📁 **Project Files**
---
+💻  **Project Files**
 
 **Project Report:** Apple_iPhone_Sales_Report.pdf
 
 **Dashboard:** Apple_iPhone_Sales_Dashboard.pbix
 
-**Dataset:** data.csv 
+**Dataset:** Cleaned dataset.csv 
 
 ---
 
