@@ -6,17 +6,6 @@ This project analyzes Apple iPhone sales data to uncover trends related to reven
 
 ---
 
-## 📁 Project Files in This Repository
-
-| File                                     | Description                                                 |
-| ---------------------------------------- | ----------------------------------------------------------- |
-| 📂 **iphone_india_full.csv**             | Dataset used for cleaning, modeling, and dashboard creation |
-| 📊 **Apple_iPhone_Sales_Dashboard.pbix** | Full Power BI dashboard                                     |
-| 📑 **Apple_iPhone_Sales_Report.pdf**     | PDF report explaining insights                              |
-| 📝 **README.md**                         | Project documentation                                       |
-
----
-
 📘 Project Overview
 
 The Apple iPhone Sales Analysis Dashboard provides a detailed view of sales performance across models, regions, years, and revenue segments.
@@ -118,6 +107,7 @@ The cleaned dataset contains **80,000+ rows** of iPhone sales records across mul
 
 
 ✅ **📌 DAX Measures Used in Power BI**
+--
 
 1️⃣ Total Units Sold
 Total Units Sold =
