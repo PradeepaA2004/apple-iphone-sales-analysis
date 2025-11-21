@@ -1,15 +1,5 @@
 # <img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/833ad067-5063-42fc-87a4-88215daaceb7" /> Apple iPhone Sales Analysis Dashboard
 
-<div align="center">  
-<img src="https://github.com/user-attachments/assets/your-dashboard-preview.png" alt="Apple iPhone Dashboard Preview" width="900" style="border-radius:10px;box-shadow:0px 4px 15px rgba(0,0,0,0.2);" />  
-</div>  
-
-<div align="center">  
-<img src="https://img.shields.io/badge/Power%20BI-Data%20Analytics-blue?style=for-the-badge&logo=microsoft-power-bi" />  
-<img src="https://img.shields.io/badge/Sales-Insights-green?style=for-the-badge" />  
-<img src="https://img.shields.io/badge/iPhone-Market%20Trends-orange?style=for-the-badge" />  
-</div>  
-
 **Power BI | Data Analytics | Sales Insights | iPhone Market Trends**
 
 This project analyzes Apple iPhone sales data to uncover trends in revenue, model performance, regional demand, year-wise growth, and customer purchasing patterns. The dashboard provides actionable KPIs and visual insights for sales teams, marketing analysts, and decision-makers.
@@ -147,14 +137,4 @@ This dashboard **transforms raw data into actionable insights**, allowing stakeh
 
 **Pradeepa**
 📍 Virudhunagar, Tamil Nadu
-BE Graduate | Data & Analytics Enthusiast
-
-<div align="center">  
-<a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-Pradeepa-blue?style=for-the-badge&logo=linkedin" /></a>  
-<a href="https://github.com/your-github"><img src="https://img.shields.io/badge/GitHub-Pradeepa-black?style=for-the-badge&logo=github" /></a>  
-</div>  
-
----
-
-
-Do you want me to make that image template?
+BE Graduate | Data & Analytics Enthusiast.
