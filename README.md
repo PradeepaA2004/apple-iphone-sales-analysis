@@ -133,15 +133,18 @@ Average Price =
 AVERAGE ( 'Sales'[price_inr] )
 
 ---
+ Dashboard Visuals Summary:
+ -
 
-## 📢 Insights Summary
+| Visual Type              | X-Axis / Legend   | Y-Axis / Values          |
+| ------------------------ | ----------------- | ------------------------ | 
+| **Line Chart**           | Date              | Units Sold / Revenue INR | 
+| **Line Chart**           | Month             | Total Units Sold         | 
+| **Stacked Column Chart** | Model Name        | Sum of Rating            |
+| **Donut Chart**          | Channel           | Total Models             |  
+| **Stacked Bar Chart**    | Region            | Units Sold               | 
 
-* Pro models contribute the highest revenue
-* Strong regional growth detected
-* Older models still have strong demand
-* Sales spike during festivals and product launches
 
----
 
 ## 🪄 Author
 
