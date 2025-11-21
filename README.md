@@ -17,21 +17,39 @@ This project analyzes Apple iPhone sales data to uncover trends related to reven
 
 ---
 
-## 📘 Project Overview
+📘 Project Overview
 
-The goal of this project is to analyze the sales performance of iPhone models across regions and years, identify revenue trends, and highlight growth opportunities.
+The Apple iPhone Sales Analysis Dashboard provides a detailed view of sales performance across models, regions, years, and revenue segments.
+Using a structured dataset of 500+ iPhone sales records, this project uncovers:
 
----
+Best-performing iPhone models
 
-## 🎯 Key Objectives
+High-demand regions
 
-* Analyze yearly and monthly iPhone sales trends
-* Compare performance of different iPhone models
-* Identify high-performing regions and sales channels
-* Calculate revenue KPIs and growth metrics
-* Provide a business-ready dashboard for decision-making
+Revenue and sales trends
 
----
+Customer purchasing patterns
+
+Seasonal or yearly growth behavior
+
+This dashboard helps sales teams, retailers, and marketing analysts make data-driven decisions and optimize product strategies.
+
+
+🎯 Project Objectives
+
+Build a professional Power BI dashboard for Apple iPhone sales
+
+Analyze units sold, revenue, model trends, and region-wise performance
+
+Create interactive visuals, KPIs, slicers, and trend charts
+
+Compare multiple iPhone models and their contribution to revenue
+
+Identify growth opportunities using historical trends
+
+Present a clean, business-focused BI report
+
+
 
  📘 Dataset Overview
  -
