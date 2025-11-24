@@ -115,97 +115,22 @@ This project analyzes Apple iPhone sales data to uncover trends in revenue, mode
 | **Transaction Count**     | `COUNTROWS('Sales')`                                      |
 | **Average Selling Price** | `AVERAGE('Sales'[price_inr])`                             |
 
----
-
-# 📊 Dashboard Overview & Explanation
-
-This Power BI dashboard provides a **comprehensive, interactive analysis** of Apple iPhone sales using key KPIs, regional insights, model performance, customer ratings, and revenue trends.
 
 ---
 
-## 🔑 Key KPI Metrics
+💡 Key Insights
 
-The top KPI cards summarize performance:
+Trend Analysis: Monthly sales and revenue trends reveal peak periods and seasonal patterns.
 
-* **52M – Total Units Sold**
-* **49 – Total Models**
-* **3T – Total Revenue (INR)**
-* **81K – Transaction Count**
-* **53.74K – Average Price per Unit**
+Model Performance: Certain iPhone models consistently outperform others in units sold and revenue.
 
-These KPIs give a fast, high-level understanding of the business.
+Regional Insights: Some regions contribute the majority of sales, guiding targeted marketing and distribution.
 
----
+Channel Analysis: High-performing sales channels help optimize retail strategies.
 
-## 🌍 Total Units Sold by Region
+Customer Behavior: Insights into storage and RAM preferences, repeat purchases, and buying patterns support marketing and product planning.
 
-A horizontal bar chart compares sales volume in major regions:
-
-* Tamil Nadu
-* Delhi NCR
-* Karnataka
-* Maharashtra
-* Punjab
-
-This helps identify **strong markets** and regional demand patterns.
-
----
-
-## ⭐ Ratings by Model Name
-
-A bar chart ranking iPhone models by **total ratings**:
-
-* Shows customer satisfaction levels
-* Highlights top-rated and low-rated models
-* Supports product strategy planning
-
----
-
-## 💰 Total Revenue INR by Date
-
-The line chart visualizes **year-wise revenue trends** from 2018–2024.
-
-This helps identify:
-
-* Growth patterns
-* Seasonal spikes
-* High-performing years
-* Revenue consistency
-
-The Apple logo enhances dashboard branding.
-
----
-
-## 🛍️ Total Models by Channel
-
-A donut chart showing how the 49 models are distributed across:
-
-* Retail
-* Online
-* Authorized Stores
-
-Useful for channel performance evaluation.
-
----
-
-## 📉 Total Units Sold by Month
-
-A line chart showing monthly demand patterns.
-
-* Highest in **September–October**
-* Declines gradually afterward
-* Helps in marketing & inventory planning
-
----
-
-## ⭐ Key Insights
-
-* Clear seasonal sales peaks
-* Certain models dominate revenue
-* Major regions drive sales
-* Customers prefer higher storage/RAM models
-* Channel performance varies
-* High-potential areas for strategy improvement
+Revenue Optimization: Prioritizing top models and regions improves overall revenue and resource allocation.
 
 ---
 
