@@ -125,26 +125,28 @@ Enable users to compare multiple iPhone models and assess their impact on overal
 
 ---
 
-💡 Key Insights
+## 💡 Key Insights
 
-Trend Analysis: Monthly sales and revenue trends reveal peak periods and seasonal patterns.
+* Trend Analysis: Monthly sales and revenue trends reveal peak periods and seasonal patterns.
 
-Model Performance: Certain iPhone models consistently outperform others in units sold and revenue.
+* Model Performance: Certain iPhone models consistently outperform others in units sold and revenue.
 
-Regional Insights: Some regions contribute the majority of sales, guiding targeted marketing and distribution.
+* Regional Insights: Some regions contribute the majority of sales, guiding targeted marketing and distribution.
 
-Channel Analysis: High-performing sales channels help optimize retail strategies.
+* Channel Analysis: High-performing sales channels help optimize retail strategies.
 
-Customer Behavior: Insights into storage and RAM preferences, repeat purchases, and buying patterns support marketing and product planning.
+* Customer Behavior: Insights into storage and RAM preferences, repeat purchases, and buying patterns support marketing and product planning.
 
-Revenue Optimization: Prioritizing top models and regions improves overall revenue and resource allocation.
+* Revenue Optimization: Prioritizing top models and regions improves overall revenue and resource allocation.
 
 ---
 
 ## ✅ Conclusion
 
 The Apple iPhone Sales Analysis Dashboard transforms raw sales data into actionable insights. 
+
 It enables stakeholders to: 
+
 * Monitor sales trends and seasonal performance.
 * Evaluate model popularity and revenue contribution.
 * Optimize marketing, inventory, and sales strategies by region and channel.
