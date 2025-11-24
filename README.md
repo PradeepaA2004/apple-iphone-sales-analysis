@@ -20,10 +20,6 @@ This project analyzes Apple iPhone sales data to uncover trends in revenue, mode
 
 ---
 
-Here is a **professional, presentation-ready Project Objectives** section for your PPT or README:
-
----
-
 ## 🎯 **Project Objectives **
 
 * Develop an interactive and business-focused Power BI dashboard to analyze Apple iPhone sales across models, regions, and time periods.
@@ -39,6 +35,7 @@ Here is a **professional, presentation-ready Project Objectives** section for yo
 * Create a clean, visually compelling BI report using standardized data, meaningful KPIs, and advanced DAX measures.
 
 Enable users to compare multiple iPhone models and assess their impact on overall revenue and sales performance
+
 ---
 
 ## 📘 Dataset Overview
