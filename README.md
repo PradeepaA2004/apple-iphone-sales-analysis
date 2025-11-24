@@ -60,14 +60,23 @@ This project analyzes Apple iPhone sales data to uncover trends in revenue, mode
 ### 1️⃣ Converted Data Types
 
 – sales_id → Whole Number
+
 – model_id → Whole Number
+
 – sale_date → Date
+
 – year → Whole Number
+
 – month → Whole Number
+
 – units_sold → Whole Number
+
 – price_inr → Decimal Number
+
 – return_rate → Decimal Number
+
 – storage_gb → Whole Number
+
 – ram_gb → Whole Number
 
 ### 2️⃣ Sorting & Structure
@@ -80,12 +89,15 @@ This project analyzes Apple iPhone sales data to uncover trends in revenue, mode
 ### 3️⃣ Standardization
 
 – Removed spaces
+
 – Fixed inconsistent regions
+
 – Ensured numeric columns have no errors
 
 ### 4️⃣ Derived Columns
 
 – Month Name
+
 – Year-Month key
 
 ---
@@ -196,21 +208,21 @@ A line chart showing monthly demand patterns.
 
 ## ✅ Conclusion
 
-The dashboard enables stakeholders to:
+The Apple iPhone Sales Analysis Dashboard transforms raw sales data into actionable insights. 
+It enables stakeholders to: 
+* Monitor sales trends and seasonal performance.
+* Evaluate model popularity and revenue contribution.
+* Optimize marketing, inventory, and sales strategies by region and channel.
+* Make informed, data-driven business decisions efficiently.
 
-* Track performance and trends
-* Understand customer behavior
-* Optimize inventory
-* Plan marketing campaigns
-* Make strategic, data-driven decisions
-
-It offers a **complete and professional view** of iPhone sales insights.
+Overall, the dashboard provides a **complete, interactive view of iPhone sales**, supporting strategic planning and revenue growth.
 
 ---
 
 ## 🪄 Author
 
 **Pradeepa**
+
 📍 Virudhunagar, Tamil Nadu
 
 BE Graduate | Data Analytics Enthusiast
