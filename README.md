@@ -59,46 +59,49 @@ This project analyzes Apple iPhone sales data to uncover trends in revenue, mode
 
 ### 1️⃣ Converted Data Types
 
-– sales_id → Whole Number
+* sales_id → Whole Number
 
-– model_id → Whole Number
+* model_id → Whole Number
 
-– sale_date → Date
+* sale_date → Date
 
-– year → Whole Number
+* year → Whole Number
 
-– month → Whole Number
+* month → Whole Number
 
-– units_sold → Whole Number
+* units_sold → Whole Number
 
-– price_inr → Decimal Number
+* price_inr → Decimal Number
 
-– return_rate → Decimal Number
+* return_rate → Decimal Number
 
-– storage_gb → Whole Number
+* storage_gb → Whole Number
 
-– ram_gb → Whole Number
+* ram_gb → Whole Number
 
 ### 2️⃣ Sorting & Structure
 
-– Sorted by sales_id
-– Removed blanks
-– Fixed date inconsistencies
-– Ensured year/month match sale_date
+* Sorted by sales_id
+  
+* Removed blanks
+  
+* Fixed date inconsistencies
+  
+* Ensured year/month match sale_date
 
 ### 3️⃣ Standardization
 
-– Removed spaces
+* Removed spaces
 
-– Fixed inconsistent regions
+* Fixed inconsistent regions
 
-– Ensured numeric columns have no errors
+* Ensured numeric columns have no errors
 
 ### 4️⃣ Derived Columns
 
-– Month Name
+* Month Name
 
-– Year-Month key
+* Year-Month key
 
 ---
 
