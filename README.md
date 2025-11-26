@@ -114,13 +114,13 @@ Enable users to compare multiple iPhone models and assess their impact on overal
 
 ## 📌 DAX Measures Used
 
-| Measure                   | Formula                                                   |
-| ------------------------- | --------------------------------------------------------- |
-| **Total Units Sold**      | `SUM('Sales'[units_sold])`                                |
-| **Total Models**          | `DISTINCTCOUNT('Sales'[model_id])`                        |
-| **Total Revenue (INR)**   | `SUMX('Sales', 'Sales'[units_sold] * 'Sales'[price_inr])` |
-| **Transaction Count**     | `COUNTROWS('Sales')`                                      |
-| **Average Selling Price** | `AVERAGE('Sales'[price_inr])`                             |
+| Measure                   | Formula                                                                                |
+| ------------------------- | -------------------------------------------------------------------------------------  |
+| **Total Units Sold**      | `SUM('iphone_india_full'[units_sold])`                                                 |
+| **Total Models**          | `DISTINCTCOUNT('iphone_india_full'[model_id])`                                         |
+| **Total Revenue (INR)**   | `SUMX(iphone_india_full,iphone_india_full[units_sold] * iphone_india_full[price_inr])` |
+| **Transaction Count**     | `COUNTROWS('iphone_full_india')`                                                       |
+| **Average Selling Price** | `AVERAGE([Total Revenue INR], [Total Units Sold] )`                                    |
 
 
 ---
